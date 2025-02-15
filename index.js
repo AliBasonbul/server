@@ -4,7 +4,7 @@ const { Server } = require("socket.io");
 const cors = require("cors");
 const userService = require("./services/userService");
 const chatService = require("./services/chatService");
-const dotenv = req('dotenv');
+const dotenv = require('dotenv');
 
 dotenv.config()
 
